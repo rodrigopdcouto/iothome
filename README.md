@@ -103,7 +103,7 @@ Arquivos importantes:
 - Configuração: `/home/hass/.homeassistant/configuration.yaml`
 - Logs: `/home/hass/.homeassistant/home-assistant.log`
 
-A minha configuração completa está disponível [aqui](configuration/home_assistant).
+Minha configuração completa está disponível [aqui](https://github.com/rodrigopdcouto/iothome/blob/master/homeAssistant/configuration.yaml).
 
 Referências:
 
@@ -225,8 +225,6 @@ Arquivos importantes:
 
 - Configuração: `/etc/mosquitto/conf.d/mosquitto.conf`
 - Logs: `/var/log/mosquitto/mosquitto.log`
-
-Minha configuração completa está disponível [aqui](https://github.com/rodrigopdcouto/iothome/blob/master/homeAssistant/configuration.yaml).
 
 Referências:
 
