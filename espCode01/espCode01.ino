@@ -36,7 +36,8 @@ D10 = 1;
 #define servidor_mqtt_porta       ""  //Porta do servidor (a mesma deve ser informada na variável abaixo)
 #define servidor_mqtt_usuario     ""  //Usuário
 #define servidor_mqtt_senha       ""  //Senha
-#define mqtt_topico_sub           ""    //Tópico para subscrever o comando a ser dado no pino declarado abaixo
+#define mqtt_topico_sub           ""  //Tópico para subscrever o comando a ser dado no pino declarado abaixo
+#define mqtt_topico_pub           ""  //Tópico para publicar o status a ser dado no pino declarado abaixo
 
 //Declaração do pino que será utilizado e a memória alocada para armazenar o status deste pino na EEPROM
 #define pino                      2                   //Pino que executara a acao dado no topico "bathroom/lights/com" e terá seu status informado no tópico "esp8266/pinstatus"
@@ -107,6 +108,7 @@ void gravarStatusPino(uint8_t statusPino){
   EEPROM.begin(memoria_alocada);
   EEPROM.write(0, statusPino);
   EEPROM.end();
+  client.publish(mqtt_topico_pub, String(statusPino).c_str(), true);
 }
 
 //Função que será chamada ao receber mensagem do servidor MQTT
