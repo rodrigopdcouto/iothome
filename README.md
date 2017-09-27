@@ -226,7 +226,7 @@ Arquivos importantes:
 - Configuração: `/etc/mosquitto/conf.d/mosquitto.conf`
 - Logs: `/var/log/mosquitto/mosquitto.log`
 
-Minha configuração completa está disponível [aqui](configuration/mosquitto).
+Minha configuração completa está disponível [aqui](https://github.com/rodrigopdcouto/iothome/blob/master/homeAssistant/configuration.yaml).
 
 Referências:
 
