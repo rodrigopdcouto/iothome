@@ -142,6 +142,28 @@ Então vamos criar o usuário do Home Assistant.
 cd /etc/mosquitto/conf.d/
 sudo touch pwfile
 sudo mosquitto_passwd pwfile ha
+
+```
+
+---Shell Commands---
+
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install mosquitto
+sudo apt-get install mosquitto-clients
+
+sudo nano /etc/mosquitto/mosquitto.conf
+
+allow_anonymous false
+password_file /etc/mosquitto/pwfile
+listener 1883
+
+sudo mosquitto_passwd -c /etc/mosquitto/pwfile username
+
+mosquitto_sub -d -u username -P password -t "dev/test"
+mosquitto_pub -d -u username -P password -t "dev/test" -m "Hello world"
+
 ```
 
 E para configurar as permissões de publishing/subscribing, nos precisamos criar o `aclfile`, que vai configurar para cada usuário as permissões de tópicos que ele tem acesso.
