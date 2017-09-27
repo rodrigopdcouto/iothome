@@ -54,7 +54,7 @@ sun:
 
 # Weather prediction
 sensor:
-  - platform: YR
+  - platform: yr
 
 # Text to speech
 tts:
