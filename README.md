@@ -229,5 +229,3 @@ Arquivos importantes:
 Referências:
 
 - [Mosquitto Debian repository](https://mosquitto.org/2013/01/mosquitto-debian-repository/
-
-Essa é a instalação básica do Home Assistant com o Mosquitto. Agora você pode instalar mais componentes, todos os componentes que eu estou usando estão [aqui](components)
