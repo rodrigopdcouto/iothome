@@ -228,4 +228,4 @@ Arquivos importantes:
 
 Referências:
 
-- [Mosquitto Debian repository](https://mosquitto.org/2013/01/mosquitto-debian-repository/
+- [Mosquitto Debian repository](https://mosquitto.org/2013/01/mosquitto-debian-repository/)

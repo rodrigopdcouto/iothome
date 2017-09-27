@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//Arquivo:   MQTT_WiFiManager_Rele.ino
-//Tipo:      Exemplo de uso das bibliotecas WiFiManager e PubSubClient para ESP8266 na IDE do Arduino
-//Descricao: Curso de ESP8266 - Utilizando MQTT e gerenciador de wifi para controlar um relé.
+//Arquivo:   MQTT_WiFiManager_Rele.ino                                                                    //
+//Tipo:      Exemplo de uso das bibliotecas WiFiManager e PubSubClient para ESP8266 na IDE do Arduino     //
+//Descricao: Project Home IOT                                                                             //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
