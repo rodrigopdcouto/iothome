@@ -49,7 +49,7 @@ sudo mkdir /srv/hass
 sudo chown hass /srv/hass
 ```
 
-Vamos logar com o novo usuário e configurar o ambiente do Python (virtualenv) na pasta que acabamos de criar. Essa é uma boa prática para você não zuar o ambiente de outros aplicativos que já estão rodando no seu computador com as dependências.
+Vamos logar com o novo usuário e configurar o ambiente do Python (virtualenv) na pasta que acabamos de criar. Essa é uma boa prática para não danificar o ambiente de outros aplicativos que já estão rodando no seu computador com as dependências.
 
 ```
 sudo su -s /bin/bash hass
